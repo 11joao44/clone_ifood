@@ -1,0 +1,13 @@
+/* eslint-disable prettier/prettier */
+export const pet30 = 'https://static.ifood-static.com.br/image/upload/t_high/discoveries/2912Proseupetcomate30OFF1_jxq2.png?imwidth=3840'
+export const animais40 = 'https://static.ifood-static.com.br/image/upload/t_high/discoveries/01promoancoraprincipal2_YGsn.png?imwidth=3840'
+export const fretegratis = 'https://static.ifood-static.com.br/image/upload/t_high/discoveries/24PETBANNERENTREGAGRATISGENERICOprincipal_5dIN.png?imwidth=3840'
+export const cobasi = 'https://static.ifood-static.com.br/image/upload/t_medium/logosgde/7cdda243-fc85-4d35-ba58-d00356a4fc10/202206131803_6W5s_i.jpg?imwidth=128'
+export const racaoCao = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/RacaoCaes_olC2.png?imwidth=128'
+export const higieneCao = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/HigieneCaes_HyWQ.png?imwidth=128'
+export const racaoGato = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/RacaoGatos_1GcC.png?imwidth=128'
+export const higieneGato = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/HigieneGato_UXgR.png?imwidth=128'
+export const farmaPet = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/FarmaciaPet_KuJa.png?imwidth=128'
+export const antipulgas = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/Antipulgas_E36D.png?imwidth=128'
+export const outrosPets = 'https://static.ifood-static.com.br/image/upload/t_medium/discoveries/OutrosPets_pECb.png?imwidth=128'
+export const mercePet = 'https://static.ifood-static.com.br/image/upload/t_medium/logosgde/a43ac720-b8b0-4211-a700-2d6393875373/202204291552_qXvr_i.jpg?imwidth=128'
