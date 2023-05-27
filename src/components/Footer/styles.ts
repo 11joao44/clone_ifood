@@ -19,9 +19,10 @@ export const FooterContainer = styled.footer`
 `
 
 export const Faixa = styled.div`
-  width: 100vw;
-  margin-left: calc((100vw - 1278px) / 2 * -1);
-  margin-top: 32px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+
   padding: 32px 0;
   background-color: ${cores.corPrincipal};
 `
