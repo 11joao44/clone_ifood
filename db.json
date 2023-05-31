@@ -1,264 +1,244 @@
-{
-  "Restaurant": [
-    {
-      "id": 1,
-      "titulo": "Mcdonald's",
-      "destacado": true,
-      "tipo": "Lanches",
-      "avaliacao": 4.8,
-      "capa": "https://static.ifood-static.com.br/image/upload//capa/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202211111619_ZwX9_i@2x.jpg",
-      "cardapio": [
-        {
-          "id": 1,
-          "preco": 66.0,
-          "nome": "3 Sanduíches + 3 McFritas Médias",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202302280417_2xothdzippk.png",
-          "descricao": "São 3 (três) sanduíches e 3 (três) McFritas para compartilhar com quem preferir #Méquinosofá. Escolha 3 (três) sanduíches entre as opções Big Mac, Cheddar McMelt, Quarterão com Queijo, McChicken, Duplo Burger Bacon ou Duplo Burguer com Queijo e 3 (três) McFritas Médias. Não utilize o campo de observações, as alterações devem ser realizadas no pedido",
-          "porcao": "2 a 3 pessoas"
-        },
-        {
-          "id": 2,
-          "preco": 19.9,
-          "nome": "Sanduíche + Bebida",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202301110925_4apne5vguzl.png",
-          "descricao": "Escolha 1 (um) sanduíche entre as opções: Big Mac, Cheddar McMelt, Quarterão com Queijo, McChicken, McChicken Bacon, McNífico Bacon, Big Tasty, Duplo Quarterão e Duplo Cheddar e 1 (uma) bebidas 400ml",
-          "porcao": "1 pessoas"
-        },
-        {
-          "id": 3,
-          "preco": 52.9,
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202302280417_w4uxe257p2.png",
-          "nome": "2 Mcofertas Médias",
-          "descricao": "São 2 Mcofertas Médias Clássicas para você compartilhar com quem preferir #Méquinosofá. Escolha 2 (dois) sanduíches entre as opções: Big Mac, Cheddar McMelt, Quarterão com Queijo, McChicken, McChicken Bacon, McNífico Bacon, Big Tasty, Duplo Quarterão e Duplo Cheddar, 2 (duas) McFritas Médias e 2 (duas) Bebidas 400ml",
-          "porcao": "1 a 2 pessoas"
-        },
-        {
-          "id": 4,
-          "preco": 32.0,
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202304200902_qn570u5c2.png",
-          "nome": "4 Pequenos Preços",
-          "descricao": "Escolha 4 (quatro) pequenos preços entre as opções: Cheeseburger, Mcfiesta, Chicken Junior, McFritas Média e Chicken McNuggets 4 unidades",
-          "porcao": "2 a 3 pessoas"
-        }
-      ],
-      "lancamentos": [
-        {
-          "id": 5,
-          "preco": 45.9,
-          "nome": "McOferta Média Big Tasty Bacon Barbecue",
-          "descricao": "Um hambúrguer (100% carne bovina), queijo sabor emental, molho barbecue (molho não emulsionado sabor barbecue), fatias de bacon, tomate, alface americana, cebola crispy, molho tasty (molho emulsionado sabor carne grelhada) e pão com gergelim, acompanhamento e bebida",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202304200902_6pliae9la1u.png"
-        },
-        {
-          "id": 6,
-          "preco": 39.9,
-          "nome": "Big Tasty Bacon Barbecue",
-          "descricao": "Um hambúrguer (100% carne bovina), queijo sabor emental, molho barbecue (molho não emulsionado sabor barbecue), fatias de bacon, tomate, alface americana, cebola crispy, molho tasty (molho emulsionado sabor carne grelhada) e pão com gergelim",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202304200902_zcc4dfuwbrn.png"
-        },
-        {
-          "id": 7,
-          "preco": 13.5,
-          "nome": "McFlurry M&Ms Chocolate",
-          "descricao": "Composto por bebida láctea sabor baunilha, cobertura sabor chocolate e M&Ms  chocolate ao leite",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202304200902_xpeufxyooyn.png"
-        },
-        {
-          "id": 8,
-          "preco": 65.5,
-          "nome": "Family Box 3 pessoas: 2 Mcofertas Médias + McLanche Feliz",
-          "descricao": "São opções para 3 pessoas, McLanche Feliz e 2 (duas) Mcofertas para você compartilhar com a família #méquinosofá. Escolha 2 (dois) sanduíches da McOferta, entre as opções: Big Mac, Cheddar McMelt, Quarterão com Queijo e McChicken, 2 (duas) McFritas Média e 2 (duas) Bebidas 400ml e um McLanche Feliz. Brinquedo sujeito a disponibilidade do restaurante. Confira informações nutricionais em: mcdonalds.com.br/cardapio/bebidas. Não utilize o campo de observações, as alterações devem ser realizadas no pedido",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202305240416_p3ehe3e4ob.png"
-        }
-      ]
-    }
-  ],
-  "Market": [
-    {
-      "id": 2,
-      "titulo": "Dia Supermercado",
-      "destacado": false,
-      "tipo": "Mercado",
-      "avaliacao": 4.4,
-      "capa": "https://static.ifood-static.com.br/image/upload/t_thumbnail/logosgde/77788401-d3e8-449c-9ae3-32582903291e/202004240858_ryJq_.jpeg",
-      "cardapio": [
-        {
-          "id": 9,
-          "nome": "Manteiga President sem Sal 200g",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180804_nc3arl8pvws.jpg?imwidth=128",
-          "preco": 13.9,
-          "descricao": "Pote 200g"
-        },
-        {
-          "id": 10,
-          "preco": 18.9,
-          "nome": "Batata Congelada Tradicional Mccain 720g",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202301272119_z83ob4veiib.jpg?imwidth=128",
-          "descricao": "Embalagem 720g"
-        },
-        {
-          "id": 11,
-          "preco": 5.4,
-          "nome": "Leite Uht Tirol Integral 1l",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210182338_se1t8isu0v.jpg?imwidth=128",
-          "descricao": "Caixa 1l"
-        },
-        {
-          "id": 12,
-          "preco": 4.4,
-          "nome": "Acucar Refinado Uniao 1kg",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202302091831_qkiyb6u5tg.jpg?imwidth=128",
-          "descricao": "Pacote 1kg"
-        }
-      ]
-    }
-  ],
-  "Drinks": [
-    {
-      "id": 3,
-      "titulo": "Heineken",
-      "destacado": false,
-      "tipo": "bebidas",
-      "avaliacao": 4.9,
-      "capa": "https://www.papodebar.com/wp-content/uploads/2011/01/banner-heineken.jpg",
-      "cardapio": [
-        {
-          "id": 13,
-          "preco": 4.9,
-          "nome": "Cerveja Eisebahn 355ml",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/b80909e5-b02d-47e5-9293-6eff196f5624/202304211528_65IO_i.jpg",
-          "descricao": "Eisenbahn é a cerveja brasileira que tem alma alemã!"
-        },
-        {
-          "id": 14,
-          "preco": 64.4,
-          "nome": "Cerveja Heineken 269ml com 8un",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210201209_f81zekrahws.jpg",
-          "descricao": "Heineken 269ml com muito desconto. Cupom de desconto, entrega rápida e promoções imperdíveis de Heineken 269ml."
-        },
-        {
-          "id": 15,
-          "preco": 349.9,
-          "foto": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//3.webp",
-          "nome": "Whisky Johnnie Walker Gold Label Reserve 750ml",
-          "descricao": "Johnnie Walker, o Gold Label Reserve é feito com maltes frutados, trazendo doçura e leveza no sabor · Camadas de frutas ricas"
-        },
-        {
-          "id": 16,
-          "preco": 1389.9,
-          "foto": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//3.webp",
-          "nome": "Whisky 21 Anos Escocês Royal Salute 700ml",
-          "descricao": "iado em homenagem à coroação da Rainha Elizabeth II em 1953, Royal Salute 21 anos se distingue pela fragrância de flores de outono que precede um aroma intenso e profundo de frutas. Ao paladar, o defumado de carvalho é intensificado por uma poderosa fragrância floral e uma aveludada cremosidade que envolve toda a boca. Produzido apenas com os melhores whiskies, adere à tradição exclusiva da marca de utilizar apenas whiskies que pacientemente maturaram por pelo menos 21 anos. O Royal Salute 21 anos é um estimado whisky apresentado em uma icônica garrafa de porcelana inglesa, todas inspiradas nas cores das joias da Coroa Real: azul (safira), vermelha (rubi) e verde (esmeralda). O whisky Royal Salute 21 anos possui graduação alcóolica de 40%. É proibida a venda e o consumo de bebidas alcoólicas para menores de 18 anos. Se beber não dirija."
-        }
-      ],
-      "lancamentos": [
-        {
-          "id": 17,
-          "preco": 17.9,
-          "nome": "Energético Red Bull 250ml",
-          "descricao": "Energético Red Bull Energy Drink, 250 ml RED BULL TE DÁ ASAS Inspirado por bebidas funcionais do Extremo Oriente",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180553_w7ngowda9d.jpg"
-        },
-        {
-          "id": 18,
-          "preco": 14.9,
-          "nome": "Gt Skol Beats 269ml",
-          "descricao": "É o seu drink perfeito para levar em todas ocasiões. Como o restante da linha Beats, GT é saborosa, leve, fácil de beber e com 7,9% de teor alcoólico",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202303221545_hp887jv9ut6.jpg"
-        },
-        {
-          "id": 19,
-          "preco": 84.6,
-          "nome": "Cerveja Skol Beats Senses Long Neck 313 Ml Pack C/6",
-          "descricao": "Skol Beats Senses Longneck 313Ml Pack c/06 Unidades Skol Beats Senses tem um sabor cítrico, refrescante e surpreendente. Sirva Skol Beats Senses em um copo",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/db514a0c-6c7f-45fc-b29e-1d7dba1a28d9/202304200902_xpeufxyooyn.png"
-        },
-        {
-          "id": 20,
-          "preco": 39.5,
-          "nome": "Gin Strawberry Intencion 900ml",
-          "descricao": "O Gin Intencion Strawberry é ideal para fazer misturas, criar e se divertir com muito sabor! Experimente! Graduação Alcoólica 38,6%. Contém 900ml. Gin Nacional.",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180829_9xjzn55qeet.jpg"
-        }
-      ]
-    }
-  ],
-  "Pharfacy": [
-    {
-      "id": 4,
-      "titulo": "Drogasil",
-      "destacado": false,
-      "tipo": "Mercado",
-      "avaliacao": 4.5,
-      "cardapio": [
-        {
-          "id": 21,
-          "preco": 45.9,
-          "nome": "Combo - Carefree+Ob+Sl",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/combos/2cc61ddb-b8aa-4e01-bb30-6f745c7b5d53.png?imwidth=128",
-          "descricao": "1x unidade de Pr Lmpm Ab Hig Sl Ad Ndia Sv Aba 12x32un e 1x unidade de Prot Diar Carefre Tod Dia S/Perf 30x40un"
-        },
-        {
-          "id": 22,
-          "preco": 61.2,
-          "nome": "Combo - Carefree+Ob+Sl",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/combos/17f33c32-b961-46ec-9345-ec893f0f9811.png?imwidth=128",
-          "descricao": "1x unidade de Pr L16p14 Toal Sl Adapt Tel Sv Ala 24x16, 1x unidade de Prot Carefree T Dia Flex S/Perf 64x15un e 1x unidade de Pr Lmpm Abs Int Ob."
-        },
-        {
-          "id": 23,
-          "preco": 103.8,
-          "nome": "Combo Exposis Casa + Spray 100ml",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/combos/3e73f0c8-a90a-4d23-a0d6-dcc14c26c0c4.jpg?imwidth=128",
-          "descricao": "1 Kit Repelente Aparelho Elétrico + Refil Exposis 32,9ml + 1 Repel Exposis Extreme 100ml."
-        },
-        {
-          "id": 24,
-          "preco": 198.3,
-          "nome": "Combo 3 Milnutri 800g",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_low/pratos/combos/31adf2d8-29cc-4264-b159-51f550a7f81d.png?imwidth=128",
-          "descricao": "Milnutri Premium 800g é um composto lácteo com óleos vegetais e fibras · Milnutri Premium é concebido essencialmente para crianças com idade pré-escolar."
-        }
-      ]
-    }
-  ],
-  "Petshop": [
-    {
-      "id": 5,
-      "titulo": "Mercearia Pet",
-      "destacado": false,
-      "tipo": "Mercado",
-      "avaliacao": 4.7,
-      "cardapio": [
-        {
-          "id": 25,
-          "preco": 66.9,
-          "nome": "Ração para Gatos",
-          "descricao": "Ração para Gatos Castrados Adultos Sabor Frango Origens 3kg.",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202211291139_egr339zfumb.jpg"
-        },
-        {
-          "id": 26,
-          "preco": 20.9,
-          "nome": "Petisco para Cães",
-          "descricao": "Petisco para Cães Crost Crostine de Prime Rib Origem Natural 100g.",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202301300909_rcuamjt6yvf.jpg"
-        },
-        {
-          "id": 27,
-          "preco": 8.9,
-          "nome": "Alimento para Pássaros",
-          "descricao": "Encher o comedouro 2 vezes ao dia. Servir a alimentação sempre em comedouros limpos e secos. Manter água fresca sempre disponível a seu pássaro.",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190036_j5x6rrjhrnm.jpg"
-        },
-        {
-          "id": 28,
-          "preco": 64.9,
-          "nome": "Combo 1 Biscrok + 5x Pedigree Sachê",
-          "descricao": "Biscoito Biscrok para Cães Adultos Raças Pequenas Pedigree 500g5Racao P/Cao Pedigree Sch 100g Carne Molho",
-          "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/combos/1b36d338-ed62-4270-b9ec-7e5d937c95b7.png"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "titulo": "Bella Tavola Italiana",
+    "destacado": true,
+    "tipo": "italiana",
+    "avaliacao": 4.7,
+    "descricao": "A paixão dos nossos talentosos chefs pela cozinha italiana é evidente em cada prato, desde massas caseiras e risotos cremosos até suculentos frutos do mar e carnes tenras. Nosso menu é complementado por uma excelente carta de vinhos, cuidadosamente selecionados para harmonizar com a riqueza dos sabores italianos.",
+    "capa": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//capa.jpeg",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//1.webp",
+        "preco": 69.9,
+        "id": 1,
+        "nome": "Ravioli al Tartufo Nero",
+        "descricao": "O Ravioli al Tartufo Nero é um requintado prato de massa artesanal, que celebra os sabores ricos e terrosos da trufa negra italiana. Cada ravióli é cuidadosamente recheado com uma mistura saborosa de ricota fresca, parmesão e trufas negras raladas, proporcionando uma combinação de texturas suaves e aromas irresistíveis.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//2.jpg",
+        "preco": 56.9,
+        "id": 2,
+        "nome": "Spaghetti alla Carbonara",
+        "descricao": "O Spaghetti alla Carbonara é um clássico prato italiano, feito com massa spaghetti al dente, coberto com um molho rico e cremoso à base de ovos, queijo pecorino romano, pancetta e pimenta-do-reino. Um prato saboroso e reconfortante que leva você diretamente para a Itália.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//3.jpg",
+        "preco": 74.9,
+        "id": 3,
+        "nome": "Risotto ai Funghi Porcini",
+        "descricao": "O Risotto ai Funghi Porcini é uma iguaria italiana feita com arroz Arborio de alta qualidade e cogumelos porcini secos, que são reidratados para liberar seu sabor intenso e terroso. O arroz é cozido lentamente em um caldo de legumes, com vinho branco e queijo parmesão, resultando em um risoto cremoso e delicioso.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//4.jpg",
+        "preco": 89.9,
+        "id": 4,
+        "nome": "Ossobuco alla Milanese",
+        "descricao": "O Ossobuco alla Milanese é um tradicional prato italiano, originário de Milão, que consiste em um suculento pedaço de vitela cozido lentamente em um molho à base de tomate, vinho branco e legumes. O prato é acompanhado por uma porção de polenta cremosa ou risoto alla Milanese, feito com açafrão.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//5.jpg",
+        "preco": 62.9,
+        "id": 5,
+        "nome": "Melanzane alla Parmigiana",
+        "descricao": "Melanzane alla Parmigiana é um delicioso prato à base de berinjelas, em camadas com molho de tomate caseiro, queijo muçarela e parmesão, assado até ficar dourado e borbulhante. Uma opção saborosa e reconfortante, perfeita para os amantes de legumes e queijo.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//6.jpg",
+        "preco": 84.9,
+        "id": 6,
+        "nome": "Frutti di Mare Linguine",
+        "descricao": "O Frutti di Mare Linguine é uma verdadeira celebração dos sabores do mar, apresentando uma generosa mistura de frutos do mar frescos, como camarões, lulas, mariscos e vieiras, combinados com massa linguine al dente e um saboroso molho de tomate e vinho branco. Uma opção deliciosa para os amantes de frutos do mar.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/bella_tavola_italiana//7.jpg",
+        "preco": 49.9,
+        "id": 7,
+        "nome": "Insalata Caprese",
+        "descricao": "A Insalata Caprese é uma refrescante e deliciosa salada italiana, feita com tomates maduros e suculentos, fatias frescas de mozzarella di bufala, folhas de manjericão e um fio de azeite extra virgem de oliva. Uma opção leve e saborosa, perfeita como entrada ou acompanhamento.",
+        "porcao": "1 a 2 pessoas"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Casa das Delícias Árabes",
+    "destacado": false,
+    "tipo": "árabe",
+    "avaliacao": 4.8,
+    "descricao": "A Casa das Delícias Árabes é um acolhedor e autêntico restaurante árabe, localizado no coração da cidade, que proporciona uma verdadeira experiência culinária do Oriente Médio. O ambiente é decorado com elementos tradicionais e exóticos, criando uma atmosfera convidativa e confortável.",
+    "capa": "https://fake-api-tau.vercel.app/efood/casa_delicias_arabes//capa.jpeg",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/casa_delicias_arabes//1.jpg",
+        "preco": 49.9,
+        "id": 8,
+        "nome": "Mezze Platter",
+        "descricao": "O Mezze Platter é uma seleção de aperitivos tradicionais árabes, incluindo homus, babaganush, tabule, falafel, azeitonas e pão pita fresco. Uma combinação deliciosa de sabores e texturas que proporciona uma experiência gastronômica única e diversificada.",
+        "porcao": "2 a 4 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/casa_delicias_arabes//2.jpg",
+        "preco": 54.9,
+        "id": 9,
+        "nome": "Kebab de Cordeiro",
+        "descricao": "O Kebab de Cordeiro é feito com pedaços de cordeiro marinados em especiarias e ervas, grelhados à perfeição e servidos com arroz basmati perfumado, salada e molho de iogurte. Uma opção saborosa e suculenta para quem aprecia a autêntica cozinha árabe.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/casa_delicias_arabes//3.webp",
+        "preco": 45.9,
+        "id": 10,
+        "nome": "Shawarma de Frango",
+        "descricao": "O Shawarma de Frango é preparado com finas fatias de frango marinadas em uma mistura de especiarias e grelhadas lentamente. Servido com pão pita, salada e molho tahine, este prato é uma opção saborosa e satisfatória para quem deseja saborear a autêntica comida de rua árabe.",
+        "porcao": "1 pessoa"
+      }
+    ]
+  },
+  {
+    "titulo": "Sakura Sushi House",
+    "destacado": false,
+    "tipo": "japonês",
+    "avaliacao": 4.9,
+    "id": 3,
+    "descricao": "A Sakura Sushi House é um sofisticado e autêntico restaurante japonês que oferece uma experiência culinária imersiva, transportando os visitantes diretamente para a Terra do Sol Nascente. O ambiente elegante é complementado por um belo jardim japonês, criando uma atmosfera tranquila e serena.",
+    "capa": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//capa.jpeg",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//1.jpg",
+        "preco": 89.9,
+        "id": 11,
+        "nome": "Sushi e Sashimi Combinado",
+        "descricao": "O Sushi e Sashimi Combinado é uma seleção de peças cuidadosamente elaboradas por nossos sushimen, incluindo atum, salmão, peixe branco, camarão e outros frutos do mar frescos. Acompanha uma porção de wasabi, gengibre em conserva e molho shoyu, para realçar os sabores naturais dos ingredientes.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//2.jpg",
+        "preco": 79.9,
+        "id": 12,
+        "nome": "Tempura de Legumes e Camarão",
+        "descricao": "O Tempura de Legumes e Camarão é uma opção deliciosa e crocante, composta por uma variedade de legumes e camarões frescos empanados em uma massa leve e frita até a perfeição. Acompanha um molho tentsuyu, à base de dashi, shoyu e mirin, para dar um toque especial ao prato.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/sakura_sushi_house//3.webp",
+        "preco": 69.9,
+        "id": 13,
+        "nome": "Teishoku de Tonkatsu",
+        "descricao": "O Teishoku de Tonkatsu é um prato tradicional japonês composto por uma fatia de lombo de porco empanado e frito, servido com arroz japonês, misoshiru (sopa de pasta de soja) e tsukemono (legumes em conserva). O molho tonkatsu, à base de frutas e legumes, adiciona um sabor agridoce irresistível.",
+        "porcao": "1 pessoa"
+      }
+    ]
+  },
+  {
+    "titulo": "Cantinho Lusitano",
+    "destacado": false,
+    "tipo": "português",
+    "avaliacao": 4.8,
+    "id": 4,
+    "descricao": "O Cantinho Lusitano é um charmoso e tradicional restaurante português, que celebra a rica herança culinária de Portugal. Neste aconchegante espaço, os visitantes podem desfrutar dos autênticos sabores portugueses, preparados com ingredientes frescos e de alta qualidade, respeitando as receitas clássicas.",
+    "capa": "https://fake-api-tau.vercel.app/efood/cantinho_lusitano//capa.jpeg",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/cantinho_lusitano//1.jpeg",
+        "preco": 74.9,
+        "id": 14,
+        "nome": "Bacalhau à Gomes de Sá",
+        "descricao": "O Bacalhau à Gomes de Sá é um prato tradicional português, que consiste em lascas de bacalhau cozido, batatas, cebola, alho, azeite e azeitonas pretas. Finalizado com salsa picada e ovos cozidos, este prato é um clássico da culinária portuguesa, que agrada a todos os paladares.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/cantinho_lusitano//2.jpg",
+        "preco": 64.9,
+        "id": 15,
+        "nome": "Arroz de Pato",
+        "descricao": "O Arroz de Pato é um delicioso prato português, feito com arroz, carne de pato desfiada, chouriço e cenoura. Cozido lentamente no forno para absorver todos os sabores e aromas, o resultado é um prato saboroso e reconfortante que conquista os corações dos apaixonados pela gastronomia lusitana.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/cantinho_lusitano//3.png",
+        "preco": 54.9,
+        "id": 16,
+        "nome": "Alheira de Mirandela",
+        "descricao": "A Alheira de Mirandela é um emblemático prato português, que consiste em uma deliciosa alheira grelhada, acompanhada de batatas fritas, arroz e uma salada fresca. A alheira é uma saborosa e suculenta mistura de carnes e pão, com um toque de alho e especiarias, que agrada a todos os gostos.",
+        "porcao": "1 pessoa"
+      }
+    ]
+  },
+  {
+    "titulo": "Piazza del Forno",
+    "destacado": false,
+    "tipo": "pizzaria",
+    "avaliacao": 4.7,
+    "id": 5,
+    "descricao": "A Piazza del Forno é uma pizzaria acolhedora e autêntica que se orgulha de suas raízes italianas. Aqui, você encontrará pizzas artesanais preparadas com ingredientes frescos e assadas em forno a lenha, proporcionando sabores inigualáveis e uma crosta crocante e deliciosa.",
+    "capa": "https://fake-api-tau.vercel.app/efood/piazza//capa.png",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/piazza//1.jpg",
+        "preco": 49.9,
+        "id": 17,
+        "nome": "Pizza Margherita",
+        "descricao": "A Pizza Margherita é um clássico italiano, preparada com molho de tomate caseiro, muçarela fresca, folhas de manjericão e um fio de azeite. Simples e deliciosa, esta pizza é a perfeita representação da culinária italiana em sua forma mais pura.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/piazza//2.webp",
+        "preco": 59.9,
+        "id": 18,
+        "nome": "Pizza Quatro Queijos",
+        "descricao": "A Pizza Quatro Queijos é uma combinação irresistível de muçarela, gorgonzola, parmesão e provolone, derretidos harmoniosamente sobre uma massa fina e crocante. Perfeita para os amantes de queijo que desejam uma experiência gastronômica rica e saborosa.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/piazza//3.jpg",
+        "preco": 64.9,
+        "id": 19,
+        "nome": "Pizza Calabresa",
+        "descricao": "A Pizza Calabresa é uma opção saborosa e suculenta, feita com rodelas de calabresa, cebola roxa fatiada, azeitonas pretas e muçarela derretida. Assada em forno a lenha, esta pizza é a escolha perfeita para quem deseja saborear uma pizza tradicional e deliciosa.",
+        "porcao": "1 a 2 pessoas"
+      }
+    ]
+  },
+  {
+    "titulo": "Jardim da Terra",
+    "destacado": true,
+    "tipo": "vegano",
+    "avaliacao": 4.8,
+    "id": 6,
+    "descricao": "O Jardim da Terra é um restaurante vegano que se dedica a oferecer pratos deliciosos e criativos, utilizando apenas ingredientes frescos, orgânicos e sazonais. Nosso cardápio é cuidadosamente elaborado para proporcionar uma experiência culinária única, que celebra a diversidade e a riqueza dos alimentos à base de plantas.",
+    "capa": "https://fake-api-tau.vercel.app/efood/jardim_terra//capa.png",
+    "cardapio": [
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/jardim_terra//1.webp",
+        "preco": 38.9,
+        "id": 20,
+        "nome": "Hambúrguer de Grão-de-Bico",
+        "descricao": "Nosso Hambúrguer de Grão-de-Bico é feito com grão-de-bico, cenoura, cebola e especiarias, servido em um pão vegano fresco com alface, tomate e nosso delicioso molho caseiro. Acompanha batatas rústicas assadas e uma salada fresca e colorida.",
+        "porcao": "1 pessoa"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/jardim_terra//2.jpeg",
+        "preco": 42.9,
+        "id": 21,
+        "nome": "Lasanha de Berinjela",
+        "descricao": "A Lasanha de Berinjela é uma opção saborosa e reconfortante, preparada com camadas de berinjela grelhada, molho de tomate caseiro e um creme de castanha-de-caju. Assada até ficar dourada, esta lasanha vegana é a escolha perfeita para quem busca uma refeição saudável e deliciosa.",
+        "porcao": "1 a 2 pessoas"
+      },
+      {
+        "foto": "https://fake-api-tau.vercel.app/efood/jardim_terra//3.jpg",
+        "preco": 35.9,
+        "id": 22,
+        "nome": "Bowl de Cogumelos e Quinoa",
+        "descricao": "O Bowl de Cogumelos e Quinoa é uma combinação nutritiva e saborosa de quinoa cozida, cogumelos salteados, espinafre, abacate e tomates-cereja. Servido com um molho de ervas frescas e limão, este prato é ideal para quem busca uma refeição leve e saudável.",
+        "porcao": "1 pessoa"
+      }
+    ]
+  }
+]

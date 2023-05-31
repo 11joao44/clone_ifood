@@ -18,6 +18,10 @@ export const GlobalCss = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     list-style: none;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   body {

@@ -83,4 +83,8 @@ export const Template = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 416px);
   grid-gap: 16px;
+
+  a {
+    color: ${cores.corText1};
+  }
 `

@@ -30,14 +30,14 @@ export type Restaurante = {
   lancamentos: Prato[]
 }
 
-const StoreRestaurant = () => {
+const StoreDrinks = () => {
   const { data: restaurantes } = useAPI<Restaurante[]>(
-    'https://currency-9iuk7xyto-11joao44.vercel.app/Restaurant.json'
+    'https://currency-9iuk7xyto-11joao44.vercel.app/Drinks.json'
   )
 
   const getDescricao = (descricao: string) => {
     if (descricao.length > 112) {
-      return descricao.slice(0, 196) + '...'
+      return descricao.slice(0, 160) + '...'
     }
 
     return descricao
@@ -137,7 +137,7 @@ const StoreRestaurant = () => {
                             <p>{prato.descricao}</p>
                             <span>A partir de {formatPreco(prato.preco)}</span>
                             <p>{prato.porcao}</p>
-                            <Link to={'/Restaurant'}>
+                            <Link to={'/Drinks'}>
                               <span>Adicionar</span>
                               <span>{formatPreco(prato.preco)}</span>
                             </Link>
@@ -156,4 +156,4 @@ const StoreRestaurant = () => {
   )
 }
 
-export default StoreRestaurant
+export default StoreDrinks

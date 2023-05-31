@@ -58,6 +58,10 @@ export const Carrousel = styled.div`
 export const Store = styled.div`
   margin: 40px 0;
 
+  a {
+    color: ${cores.corText1};
+  }
+
   button {
     width: 100%;
     background-color: #fff;

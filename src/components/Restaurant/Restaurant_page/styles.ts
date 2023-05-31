@@ -47,17 +47,16 @@ export const Store = styled.div`
     font-size: 14px;
     font-weight: 500;
     margin: 40px 0;
-
-    &:hover {
-      background-color: ${cores.corTerceira};
-      color: #fff;
-    }
   }
 
   h2 {
     font-size: 24px;
     font-weight: 500;
     margin: 24px 0;
+  }
+
+  a {
+    color: ${cores.corText1};
   }
 `
 
